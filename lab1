@@ -33,3 +33,7 @@ spec:
         imagePullPolicy: IfNotPresent
       nodeSelector:
         kubernetes.io/os: linux
+
+
+
+kubectl apply -f service.yaml
